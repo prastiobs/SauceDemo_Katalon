@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_006_User checkout with no add product in chart</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>56cfedf6-cf02-4735-bffe-ed9b63625d58</testCaseGuid>
+</TestCaseEntity>

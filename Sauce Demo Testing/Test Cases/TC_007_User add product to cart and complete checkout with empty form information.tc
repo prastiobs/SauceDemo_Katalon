@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_007_User add product to cart and complete checkout with empty form information</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a9d4c63e-0d37-485a-b70b-4765b5ee0677</testCaseGuid>
+</TestCaseEntity>
