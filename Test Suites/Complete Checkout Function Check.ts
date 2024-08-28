@@ -16,21 +16,90 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC_002_User success login using valid credentials</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>76fff0dc-81bf-4341-9cfb-4403b7991e44</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Login</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>76fff0dc-81bf-4341-9cfb-4403b7991e44</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>16bb066e-b302-4905-9869-6322286e4abf</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>76fff0dc-81bf-4341-9cfb-4403b7991e44</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>4cb9272a-9483-448f-bf49-afd151484c82</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>16b861a1-82e2-4747-b6fe-04b3c7c88f13</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC_005_User add product to cart and complete checkout</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>4714859d-2c3e-43e8-8813-ec119932a67d</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Form</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>4714859d-2c3e-43e8-8813-ec119932a67d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>firstName</value>
+         <variableId>1804cb00-2005-4c68-969a-e60e2d11c35f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4714859d-2c3e-43e8-8813-ec119932a67d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>lastName</value>
+         <variableId>74283bee-3704-4ac2-99a3-7a16c0c809e7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4714859d-2c3e-43e8-8813-ec119932a67d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>postalCode</value>
+         <variableId>3542d6c2-67e9-49d7-b5cc-e3503bcc87b3</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>af6c2f09-f437-4c6b-b2b6-fb7a1d80c9f6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC_002_User success login using valid credentials</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>3a421101-6b12-4c26-9ab4-2fecbd0f214c</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Login</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>3a421101-6b12-4c26-9ab4-2fecbd0f214c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>16bb066e-b302-4905-9869-6322286e4abf</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3a421101-6b12-4c26-9ab4-2fecbd0f214c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>4cb9272a-9483-448f-bf49-afd151484c82</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>ca33c344-16c5-48d3-b4dd-0b844e36e1d2</guid>
@@ -44,7 +113,28 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC_002_User success login using valid credentials</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>bea2bfad-fb8c-45c2-97b6-18a293c89a52</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Login</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>bea2bfad-fb8c-45c2-97b6-18a293c89a52</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>16bb066e-b302-4905-9869-6322286e4abf</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>bea2bfad-fb8c-45c2-97b6-18a293c89a52</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>4cb9272a-9483-448f-bf49-afd151484c82</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>9a17abdf-eeb6-46cf-9cc3-acccee1d0b5d</guid>

@@ -21,18 +21,11 @@ WebUI.click(findTestObject('Object Repository/Complete Checkout Object/a_1'))
 
 WebUI.click(findTestObject('Object Repository/Complete Checkout Object/button_Checkout'))
 
-WebUI.setText(findTestObject('Object Repository/Complete Checkout Object/input_firstName'), 'Prastio')
+//define
+def testObject = findTestObject('Object Repository/Complete Checkout Object/button_Checkout')
 
-WebUI.setText(findTestObject('Object Repository/Complete Checkout Object/input_lastName'), 'Bagusindra')
-
-WebUI.setText(findTestObject('Object Repository/Complete Checkout Object/input_postalCode'), '40287')
-
-WebUI.click(findTestObject('Object Repository/Complete Checkout Object/input_continue'))
-
-WebUI.click(findTestObject('Object Repository/Complete Checkout Object/button_Finish'))
-
-////assertion
-//WebUI.verifyElementText(findTestObject('Object Repository/Complete Checkout Object/button_Checkout', 'Error'))
+//assertion
+WebUI.verifyElementText(testObject, 'Error: There is no product in chart')
 
 WebUI.closeBrowser()
 

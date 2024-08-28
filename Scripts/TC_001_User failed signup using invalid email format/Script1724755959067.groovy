@@ -23,13 +23,11 @@ WebUI.navigateToUrl('https://saucelabs.com/sign-up')
 
 WebUI.click(findTestObject('Object Repository/Signup Object/a_img altAuthenticate with Email srcSetsign_72abec'))
 
-WebUI.setText(findTestObject('Object Repository/Signup Object/input_email'), 'standar_usergmail.com')
+WebUI.setText(findTestObject('Object Repository/Signup Object/input_email'), email)
 
-WebUI.setText(findTestObject('Object Repository/Signup Object/input_username'), 
-    'standard_user')
+WebUI.setText(findTestObject('Object Repository/Signup Object/input_username'), username)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Signup Object/input_password'), 
-    'iFGeFYmXIrWFQK9cz/KNiQ==')
+WebUI.setText(findTestObject('Object Repository/Signup Object/input_password'), password)
 
 WebUI.click(findTestObject('Object Repository/Signup Object/input_contactConsent'))
 

@@ -5,4 +5,43 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>751f4567-5d3e-4e27-9748-0f57c796bfd1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1804cb00-2005-4c68-969a-e60e2d11c35f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>74283bee-3704-4ac2-99a3-7a16c0c809e7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3542d6c2-67e9-49d7-b5cc-e3503bcc87b3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1804cb00-2005-4c68-969a-e60e2d11c35f</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>74283bee-3704-4ac2-99a3-7a16c0c809e7</id>
+      <masked>false</masked>
+      <name>lastName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3542d6c2-67e9-49d7-b5cc-e3503bcc87b3</id>
+      <masked>false</masked>
+      <name>postalCode</name>
+   </variable>
 </TestCaseEntity>

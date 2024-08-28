@@ -17,21 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.click(findTestObject('Object Repository/Complete Checkout Object/div_29.99'))
 
-WebUI.navigateToUrl('https://www.saucedemo.com/')
+WebUI.click(findTestObject('Object Repository/Complete Checkout Object/div_9.99'))
 
-WebUI.setText(findTestObject('Object Repository/Complete Checkout Object/input_user-name'), username)
+WebUI.click(findTestObject('Object Repository/Complete Checkout Object/div_Item total 39.98'))
 
-WebUI.setText(findTestObject('Object Repository/Complete Checkout Object/input_password'), password)
+WebUI.click(findTestObject('Object Repository/Complete Checkout Object/div_Tax 3.20'))
 
-WebUI.click(findTestObject('Object Repository/Complete Checkout Object/input_login-button'))
-
-//define test object
-def testObject = findTestObject('Object Repository/Complete Checkout Object/verify login error')
-
-//assertion
-WebUI.verifyElementText(testObject, 'Epic sadface: Username and password do not match any user in this service')
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Object Repository/Complete Checkout Object/div_Total 43.18'))
 

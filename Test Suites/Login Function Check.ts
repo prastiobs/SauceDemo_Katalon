@@ -16,13 +16,55 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC_002_User success login using valid credentials</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>2a91269e-f772-4175-b66c-451405a86818</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Login</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>2a91269e-f772-4175-b66c-451405a86818</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>16bb066e-b302-4905-9869-6322286e4abf</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>2a91269e-f772-4175-b66c-451405a86818</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>4cb9272a-9483-448f-bf49-afd151484c82</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>4aa1a861-3562-4770-8c91-4f7a81678e92</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC_003_User failed login using invalid password</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>5fe9f717-4a2d-4aa7-bb93-5b20e03e3e6f</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>2</value>
+         </iterationEntity>
+         <testDataId>Data Files/Login</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>5fe9f717-4a2d-4aa7-bb93-5b20e03e3e6f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>cc792f62-b7cf-4f72-b7b3-370ad3a98373</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>5fe9f717-4a2d-4aa7-bb93-5b20e03e3e6f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>afb0f398-40d1-4ceb-b589-de3befd8d941</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

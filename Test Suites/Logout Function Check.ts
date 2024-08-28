@@ -17,6 +17,18 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC_002_User success login using valid credentials</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>16bb066e-b302-4905-9869-6322286e4abf</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4cb9272a-9483-448f-bf49-afd151484c82</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>f40c730d-0ee4-4f3e-bb30-f158160849a4</guid>

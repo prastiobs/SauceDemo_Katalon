@@ -17,16 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://www.saucedemo.com/')
-
-WebUI.setText(findTestObject('Object Repository/Complete Checkout Object/input_user-name'), 'standard_user')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Complete Checkout Object/input_password'), 'qcu24s4901FyWDTwXGr6XA==')
-
-WebUI.click(findTestObject('Object Repository/Complete Checkout Object/input_login-button'))
-
 WebUI.click(findTestObject('Object Repository/Complete Checkout Object/span_Name (A to Z)Name (A to Z)Name (Z to A_3f2346'))
 
 //define

@@ -21,9 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.saucedemo.com/')
 
-WebUI.setText(findTestObject('Object Repository/Complete Checkout Object/input_user-name'), 'standard_user')
+WebUI.setText(findTestObject('Object Repository/Complete Checkout Object/input_user-name'), username)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Complete Checkout Object/input_password'), 'qcu24s4901FyWDTwXGr6XA==')
+WebUI.setText(findTestObject('Object Repository/Complete Checkout Object/input_password'), password)
 
 WebUI.click(findTestObject('Object Repository/Complete Checkout Object/input_login-button'))
 
@@ -32,3 +32,4 @@ def testObject = findTestObject('Object Repository/Complete Checkout Object/Home
 
 //assertion
 WebUI.verifyElementText(testObject, 'Swag Labs')
+
