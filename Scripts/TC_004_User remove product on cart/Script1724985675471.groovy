@@ -17,13 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Object Repository/Complete Checkout Object/span_Name (A to Z)Name (A to Z)Name (Z to A_3f2346'))
+WebUI.click(findTestObject('Object Repository/Complete Checkout Object/Add to cart_button'))
 
-//define
-def testObject = findTestObject('Object Repository/Complete Checkout Object/Home_Page_Text')
+WebUI.click(findTestObject('Object Repository/Complete Checkout Object/a_1'))
 
-//assertion
-WebUI.verifyElementPresent(testObject, 10)
+WebUI.click(findTestObject('Object Repository/Complete Checkout Object/button_Remove'))
+
+boolean isRemoved = WebUI.verifyElementNotPresent(findTestObject('Object Repository/Complete Checkout Object/quantityText'), 10)
+
+if (isRemoved) {
+		WebUI.comment('Item berhasil dihapus dari cart')
+	} else {
+		WebUI.comment('Item masih ada di cart')
+	}
 
 WebUI.closeBrowser()
 

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_004_User success filter price low to high</name>
+   <name>TC_004_User remove product on cart</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d92e17c6-24c9-493f-91ad-cb88737b39aa</testCaseGuid>
+   <testCaseGuid>23133827-3888-45a7-86b1-09a7573151f1</testCaseGuid>
 </TestCaseEntity>

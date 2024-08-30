@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Name (A to Z)Name (A to Z)Name (Z to A_3f2346</name>
+   <name>quantityText</name>
    <tag></tag>
-   <elementGuidId>d534d68a-3274-4aa3-b452-8a7af49e7443</elementGuidId>
+   <elementGuidId>03e540b4-244c-4380-a40e-f6a97d3ba9e4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='header_container']/div[2]/div/span</value>
+         <value>//div[@id='cart_contents_container']/div/div/div[3]/div</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>span.select_container</value>
+         <value>div.cart_quantity</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,55 +21,63 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
-      <webElementGuid>9cb8f163-454f-4e5c-a49f-9ac3aada4004</webElementGuid>
+      <value>div</value>
+      <webElementGuid>191db6d3-38a6-4855-9f46-4ba13498c9a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>select_container</value>
-      <webElementGuid>e8a9a31f-d652-489c-a80e-55af8ce1c64f</webElementGuid>
+      <value>cart_quantity</value>
+      <webElementGuid>fdc704e8-bd2f-44a1-b0f0-1c6c98f779c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test</name>
+      <type>Main</type>
+      <value>item-quantity</value>
+      <webElementGuid>117c9ae6-5a3f-4b86-914c-a031bbe265df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Name (A to Z)Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)</value>
-      <webElementGuid>c03af349-7502-4e88-9a4c-9a3636f1f97c</webElementGuid>
+      <value>1</value>
+      <webElementGuid>fc287a2e-4e3b-4fb8-bb9c-e9cbb7c0850c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;header_container&quot;)/div[@class=&quot;header_secondary_container&quot;]/div[@class=&quot;right_component&quot;]/span[@class=&quot;select_container&quot;]</value>
-      <webElementGuid>00ad37b1-7d63-48c8-a195-4285a211b6a8</webElementGuid>
+      <value>id(&quot;cart_contents_container&quot;)/div[1]/div[@class=&quot;cart_list&quot;]/div[@class=&quot;cart_item&quot;]/div[@class=&quot;cart_quantity&quot;]</value>
+      <webElementGuid>70fb8ea6-cc2d-49ab-9ece-cc08a3ba2ec0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='header_container']/div[2]/div/span</value>
-      <webElementGuid>e9470e79-7f1c-4cfb-8e1b-0f079961c918</webElementGuid>
+      <value>//div[@id='cart_contents_container']/div/div/div[3]/div</value>
+      <webElementGuid>059b4d32-8494-4246-ba2e-bac04e5a03a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/span</value>
-      <webElementGuid>9e4e432f-7f1c-4fb0-9e28-f26114842642</webElementGuid>
+      <value>//div[3]/div</value>
+      <webElementGuid>c7a14ba2-14d7-4b4e-bec5-3135118b89b0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[(text() = 'Name (A to Z)Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)' or . = 'Name (A to Z)Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)')]</value>
-      <webElementGuid>d3d2de40-b6f2-49d5-8ab9-8d2456478966</webElementGuid>
+      <value>//div[(text() = '1' or . = '1')]</value>
+      <webElementGuid>4d69b6a8-b832-4aa2-bb49-7022dae13b2a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
